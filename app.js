@@ -1,5 +1,7 @@
 const API_URL = 'https://jsonplaceholder.typicode.com/posts/'
 const randomCardsPhoto = document.querySelector('.cards-photo-container');
+const postImage = document.querySelector("body-body1")
+
 
 
 async function getRandomData() {
@@ -23,11 +25,21 @@ async function getRandomData() {
                             <div class="content4">
                             <h4> ${posts.body}</h4>
                             </div>
-                            <button onclick="getOnePost(${posts.id})">See in details</button>
+                            
+                            <button onclick=""><a href="/blog.html" onclick="getSinglePost(${posts.id})" ">View Single Item<a/></button>
                                 </div>  
                 </div>                     
         `
     });
-   
 }
+
+const getSinglePost = async (id) => {
+    const post = await fetch(`https://jsonplaceholder.typicode.com/posts/${id}`);
+    const response = await post.json();
+    console.log(response);
+    localStorage.setItem('currentPost', JSON.stringify(response));
+    window.location.href = 'singlePost.html';
+};
+
+
 getRandomData();

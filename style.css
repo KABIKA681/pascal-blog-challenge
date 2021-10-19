@@ -6,6 +6,9 @@
     box-sizing: border-box;
     padding: 0;
   }
+  a{
+    text-decoration: none;
+  }
   body{
     font-family: 'Comfortaa', cursive;
   }
@@ -17,16 +20,19 @@
     width: 100%;
     background-color: rgb(195, 175, 151);
   }
-  .logo{
-    flex: 1;
-    font-size: 0.8rem;
-    position: relative;
-    margin-left: 3rem;
-    margin-top: 0.5rem;
+  .logo a{
+    font-size: 2rem;
     color:rgb(255, 112, 87);
+    margin-left: -0.2rem;
     
   }
-  .logo-title{
+  .logo {
+    flex: 1;
+    margin-left: 3rem;
+    margin-top: 0.5rem;
+    
+  }
+  .logo-title {
     background-color: black;
     padding: 13px;
     border-radius: 90%;
@@ -142,7 +148,14 @@
     margin-top: 20px;
     color: rgb(164, 163, 163);
   }
-  button{
+  button a{
+    padding: 10px;
+    font-family: 'Comfortaa', cursive;
+    font-weight: 700;
+    cursor: pointer;
+    color: black;
+  }
+  button {
     padding: 10px;
     background-color:rgb(163, 129, 104);
     width: 400px;
