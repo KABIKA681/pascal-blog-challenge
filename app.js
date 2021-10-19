@@ -8,7 +8,7 @@ async function getRandomData() {
     randomCardsPhoto.innerHTML = '';
     const response = await fetch(API_URL);
     const posts = await response.json();
-    const bigPosts = posts.filter((post) => post.id % 4 == 0);
+    const bigPosts = posts.filter((post) => post.id % 5 == 0);
     console.log(bigPosts);
 
     bigPosts.forEach(posts => {
