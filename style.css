@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Poppins:wght@200;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Comfortaa:wght@400;700&family=Poppins:wght@200;400;700&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+  }
+  body{
+    font-family: 'Comfortaa', cursive;
+  }
+  .side-bar{
+    margin-left: 0rem;
+    display: flex;
+    flex-wrap: wrap;
+    height: 80px;
+    width: 100%;
+    background-color: rgb(195, 175, 151);
+  }
+  .logo{
+    flex: 1;
+    font-size: 0.8rem;
+    position: relative;
+    margin-left: 3rem;
+    margin-top: 0.5rem;
+    color:rgb(255, 112, 87);
+    
+  }
+  .logo-title{
+    background-color: black;
+    padding: 13px;
+    border-radius: 90%;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    margin-left: 10px;
+    line-height: 35px;
+  }
+
+  .icons{
+    display: flex;
+    flex: 1.5;
+    justify-content: space-between;
+    margin-top: 2rem;
+    margin-right: 5px;
+    
+  }
+  .icons a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    margin-right: 5px;
+  }
+  .icons a:hover{
+    color:rgb(247, 135, 115);
+    border-bottom:rgb(255, 112, 87) solid 3px;
+  }
+  .body-body{
+    width: 80%;
+    margin-left: 10rem;
+    margin-right: 15rem;
+    justify-content: center;
+    
+   
+  }
+  .boby-paragraph{
+    position: relative;
+    margin-bottom: 3rem ;
+    font-size: 30px;
+    font-weight: 1900; 
+    margin-top: 2rem;
+   
+  }
+  .body-header{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .header-img img{
+    object-fit: cover;
+    width: 700px;
+    border-radius: 10px;
+    margin-right: 3rem;
+  }
+  .header-paragraph .date{
+   font-size: 16px;
+   color: rgb(168, 164, 164);
+   font-family: 'Times New Roman', Times, serif;
+   margin: 1rem;
+  }
+  .header-paragraph .content{
+    font-size: 32px;
+    letter-spacing: 0.3rem;
+    font-family: 'Alfa Slab One', cursive;
+  }
+  .header-paragraph .content2{
+    font-size: 22px;
+    color: rgb(150, 149, 149);
+    line-height: 26px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 15px;
+  }
+  .cards-photos{
+    margin-top: 5rem;
+    width: 400px;
+    /* border: solid 1px black; */
+    padding: 0px;
+    border-radius: 10px;
+    display: grid;
+   grid-template-columns: repeat(3);
+    
+  }
+  .cards-photo-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+  }
+  .photo img{
+    height: 300px;
+    width: 400px;
+    margin-bottom: 1rem;
+    object-fit: cover;
+    padding-top: 20px; 
+  }
+  .param-photo .date{
+    font-size: 16px;
+    margin: 10px;
+    color: rgb(167, 165, 165);
+    font-family:Arial, Helvetica, sans-serif
+  }
+  .param-photo .content3{
+    font-size: 24px;
+    line-height: 30px;
+    font-family: 'Alfa Slab One', cursive;
+    letter-spacing: 0.2rem;
+  }
+  .param-photo .content4{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    color: rgb(164, 163, 163);
+  }
+  button{
+    padding: 10px;
+    background-color:rgb(163, 129, 104);
+    width: 400px;
+    font-size: 18px;
+    border: none;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 3px 1px rgb(68, 64, 64);
+    font-family: 'Comfortaa', cursive;
+    font-weight: 700;
+    cursor: pointer;
+    margin-bottom: 2rem;
+  }
+  button:hover{
+    background-color: rgb(205, 71, 23);
+  }
+  .cards-body{
+    display: flex;
+    flex-wrap: wrap;
+  }

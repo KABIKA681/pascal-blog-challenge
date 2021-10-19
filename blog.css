@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Poppins:wght@200;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Comfortaa:wght@400;700&family=Poppins:wght@200;400;700&display=swap');
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+  }
+  body{
+    font-family: 'Comfortaa', cursive;
+  }
+  .side-bar{
+    margin-left: 0rem;
+    display: flex;
+    flex-wrap: wrap;
+    height: 80px;
+    width: 100%;
+    background-color: rgb(195, 175, 151);
+  }
+  .logo{
+    flex: 1;
+    font-size: 0.8rem;
+    position: relative;
+    margin-left: 3rem;
+    margin-top: 0.5rem;
+    color:rgb(255, 112, 87);
+    
+  }
+  .logo-title{
+    background-color: black;
+    padding: 13px;
+    border-radius: 90%;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    margin-left: 10px;
+    line-height: 35px;
+  }
+
+  .icons{
+    display: flex;
+    flex: 1.5;
+    justify-content: space-between;
+    margin-top: 2rem;
+    margin-right: 5px;
+    
+  }
+  .icons a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    margin-right: 5px;
+  }
+  .icons a:hover{
+    color:rgb(247, 135, 115);
+    border-bottom:rgb(255, 112, 87) solid 3px;
+  }
+  .body-body1{
+    width: 80%;
+    height: 50%;
+    margin-left: 8rem;
+    justify-content: center;
+   
+  }
+  .body-body1 img{
+      width: 80%;
+      height: 500px;
+      margin: 10px auto;
+      object-fit: cover;
+      margin-top: 8rem;
+  }
+  .paragraph1 h1{
+      font-size: 28px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      letter-spacing: 3px;
+  }
+  .paragraph1 .ppp{
+      font-size: 18px;
+      color: gray;
+      line-height: 30px;
+      margin-top: 10px;
+      margin-bottom: 40px;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  .para .pppp{
+      font-size: 30px;
+      font-weight: 600;
+      margin-bottom: 20px;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+ .para2 .para2{
+     font-size: 18px;
+     font-family: Arial, Helvetica, sans-serif;
+     line-height: 30px;
+     color: rgb(129, 127, 127);
+     margin-bottom: 10rem;
+    }
