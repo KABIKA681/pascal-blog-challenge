@@ -45,7 +45,6 @@ const showCurrentPost = () => {
     <div class="paragraph1">
     <img src="/asset/pexels-greta-hoffman-9706062.jpg" alt="">
     <h1>${currentPost.title}</h1>
-    <p class="ppp">quia et suscipit nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architectoadipisicing elit. Beatae dolor quisquam aut repellat quaerat consequatur cum consectetur accusamus nam numquam. Dolore numquam voluptas soluta eos accusamus? Architecto deleniti odit ipsum.</p>
         <div class="para">
             <p class="pppp"> Comments
             </p>
