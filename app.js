@@ -53,7 +53,6 @@ const showCurrentPost = () => {
         <p class="para2">${currentPost.body}
     </p>
        </div>
-      
 </div>
        `;
     
